@@ -23,7 +23,7 @@ export default class EmailAdapterMailgun implements EmailAdapter {
     from: string,
     to: string,
     text: string,
-    html: string,
+    html: string | undefined,
     subject: string
   ): Promise<{ error?: string; ok?: boolean }> {
     const mailgun = new Mailgun(formData);
@@ -39,7 +39,7 @@ export default class EmailAdapterMailgun implements EmailAdapter {
         to,
         subject,
         text,
-        html,
+        ...(html ? { html } : {}),
       });
       return { ok: true };
     } catch (error: any) {
