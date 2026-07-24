@@ -4,7 +4,6 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
-  "homepage": "https://adminforth.dev/docs/tutorial/Adapters/email-adapter-mailgun/",
   "repository": {
     "type": "git",
     "url": "https://github.com/devforth/adminforth-email-adapter-mailgun.git"
@@ -18,7 +17,7 @@
   "keywords": [],
   "author": "DevForth (https://devforth.io)",
   "license": "MIT",
-  "description": "",
+  "description": "AdminForth email adapter for Mailgun.",
   "dependencies": {
     "form-data": "^4.0.3",
     "mailgun.js": "^12.0.3"
