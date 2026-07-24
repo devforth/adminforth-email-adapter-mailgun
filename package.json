@@ -8,6 +8,7 @@
     "type": "git",
     "url": "https://github.com/devforth/adminforth-email-adapter-mailgun.git"
   },
+  "homepage": "https://adminforth.dev/docs/tutorial/Adapters/email-adapters/#mailgun-email-adapter",
   "publishConfig": {
     "access": "public"
   },
